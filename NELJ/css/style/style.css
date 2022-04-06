@@ -1,0 +1,37 @@
+
+
+:root {
+    --primary-color: #00008B;
+    --secondary-color: #ffffff;
+  }
+
+
+html {
+  background-color: var(--primary-color);
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    background: var(--primary-color);
+    padding: 10px;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+  }
+
+  .content img {
+    margin-right: 20px;
+  }
+
+  .heading {
+    max-width: 960px;
+    margin: auto;
+    background: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: xx-large;
+  }
+
