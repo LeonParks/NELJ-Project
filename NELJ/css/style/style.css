@@ -45,3 +45,12 @@ html {
     font-size: larger;
   }
 
+  .footer {
+    max-width: 960px;
+    margin: auto;
+    background: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: small;
+  }
