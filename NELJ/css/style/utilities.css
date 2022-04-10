@@ -1,0 +1,27 @@
+/* html {
+  background-color: var(--primary-color);
+} */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+    color: #00008B;
+}
