@@ -105,6 +105,9 @@ img {
     background: var(--primary-color);
     color: var(--secondary-color);    
     font-size: small;
+    text-align: center;
+    height: 50px;
+    align-items: center;
   }
 
   .footer ul {
