@@ -81,6 +81,7 @@ h1 {
     margin: auto;
     text-align: center;
     font-size: larger;
+    align-items: center;
   }
 
   .indexbody .grid {
