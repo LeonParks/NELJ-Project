@@ -29,9 +29,10 @@ h1 {
   margin: 12px 0;
 }
 
-img {
+/*img {
   width: 100%;
 }
+*/
 
 /* Navbar */
 
@@ -64,50 +65,44 @@ img {
 
 /* Index Page */
 
-.indexcontent {
+  .indexteam .grid {
     max-width: 960px;
-    margin: auto;
-    background: var(--primary-color);
-    padding: 10px;
-    color: var(--secondary-color);
-    display: flex;
-    align-items: center;
-    font-size: x-large;
-  }
-
-  .indexcontent img {
-    margin-right: 20px;
+    grid-template-columns: 600px 1fr;
+    overflow: auto;
   }
 
   .indexheading {
     max-width: 960px;
     margin: auto;
-    background: var(--primary-color);
-    padding: 10px;
-    text-align: center;
-    color: var(--secondary-color);
-    font-size: xx-large;
+    font-size: 50px;
   }
 
   .indexbody {
-    max-width: 960px;
     margin: auto;
-    background: var(--primary-color);
-    padding: 10px;
     text-align: center;
-    color: var(--secondary-color);
     font-size: larger;
+  }
+
+  .indexbody .grid {
+    max-width: 960px;
+    grid-template-columns: 200px 1fr;
+    overflow: auto;
   }
 
 /* Footer */ 
 
   .footer {
-    background: var(--primary-color);
     color: var(--secondary-color);    
-    font-size: small;
+    font-size: medium;
     text-align: center;
-    height: 50px;
+    justify-content: center;
+    height: 60px;
     align-items: center;
+    bottom: 0;
+  }
+
+  .footer .flex {
+    justify-content: space-between;
   }
 
   .footer ul {
@@ -122,5 +117,5 @@ img {
   
   .footer a:hover {
     border-bottom: 2px #ffffff solid;
-    color: black;
+    color: red;
   }
