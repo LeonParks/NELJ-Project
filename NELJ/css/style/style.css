@@ -15,6 +15,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--secondary-color)
 }
 
 body {
@@ -42,6 +43,7 @@ h1 {
   height: 65px;
   position: sticky; 
   top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar .flex {
@@ -59,9 +61,11 @@ h1 {
 }
 
 .navbar a:hover {
-  border-bottom: 2px #ffffff solid;
-  color: red;
+  border: 2px #ffffff solid;
+  background-color: #ffffff;
+  color: var(--primary-color);
 }
+
 
 /* Index Page */
 
@@ -90,6 +94,46 @@ h1 {
     overflow: auto;
   }
 
+/* Data Dashboard */
+
+.dataheading {
+  max-width: 960px;
+  margin: auto;
+  font-size: 50px;
+}
+
+.dataintro {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.dataintro a {
+  text-decoration: underline;
+}
+
+.dataintro a:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+.datavisuals .grid {
+  max-width: 1700px;
+  grid-template-columns: 2, 2fr;
+  overflow: auto;
+  column-gap: 100px;
+}
+
+.datatext {
+  margin: auto;
+  text-align: center;
+  font-size: larger;
+  align-items: center;
+  color: black;
+}
+
+
+
 /* Footer */ 
 
   .footer {
@@ -117,6 +161,7 @@ h1 {
   }
   
   .footer a:hover {
-    border-bottom: 2px #ffffff solid;
-    color: red;
+    border: 2px #ffffff solid;
+    background-color: #ffffff;
+    color: var(--primary-color);
   }

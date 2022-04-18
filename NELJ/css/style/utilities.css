@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  overflow: auto;
 }
 
 .bg-primary {
@@ -58,7 +59,15 @@
   text-align: center;
 }
 
+.textcenter a {
+  text-decoration: dashed;
+}
+
 /* Margin - For Adding Margins to Sections */
+
+.my-10 {
+  margin: 10px 0;
+}
 
 .my-20 {
   margin: 20px 0;
@@ -78,6 +87,10 @@
 
 .my-index{
   margin: 106px 0 0 0;
+}
+
+.my-data{
+  margin: 10px 0 0 0;
 }
 
 /* Padding - For Adding Padding to Sections */
