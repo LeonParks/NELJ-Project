@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NELJ About Us Page">
+    <meta name="keywords" content="HTML, NELJ Team Information, About Us Page">
+    <meta name="author" content="Joshua Etherington">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style/style.css">
+    <link rel="stylesheet" href="css/style/utilities.css">
+    <title>NELJ | Group Project </title>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <div class="navbar">
+        <div class="container flex" >
+            <h1 class="Logo">NELJ</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Data Dashboard</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- About Us Header -->
+    <section class="bg-primary pd-10">
+
+        <div class="container">
+            <h1 class="aboutheading textcenter">
+                About Us
+            </h1>
+        </div>
+
+    </section>
+
+       <!-- About Us Intro -->
+    <section class="bg-primary pd-5">
+
+        <div class="container">
+            <p class="about-intro my-20 pd-0">This is our About Us page for our group project. Here you can find information about each of our team members and 
+            you can also access different resources such as our personal emails and the university websites. You can find the university and blackboard sites 
+            here:
+                <a href="https://www.tees.ac.uk/">Teesside University Website</a>
+                 <a href="https://bb.tees.ac.uk/?new_loc=%2Fultra">Blackboard Login Page</a>
+            </p>
+        </div>
+
+    </section>
+
+    <section class="aboutbody bg-primary pd-10">
+
+        <div class="container grid">
+            <img src="images/Niall.jpg" width="300" height="300" alt="Niall Sunderland - Group Leader" class="center">
+            <p class="indexbody">
+              My name is Niall and I attend Teesside University for Information Technology, I am currently a first-year student. 
+              I am 24 and was born and live locally in Middlesbrough. Outside of University I compete in competitive Call of Duty and have travelled the world
+              for events and was a fulltime professional player pre-covid. My role as group leader is to delegate tasks to other team 
+              members - and I am currently developing the home page and the data dashboard page for our website as well as working on our group 
+              presentation and Asana project management. My student email is b1168743@tees.ac.uk if you need to contact me personally.  
+            </p>                
+        </div>
+        <br> <br> <br> 
+        <div class="container grid">
+            <img src="#" width="200" height="200" alt="Elliot Ginty - Team Member" class="center">
+            <p class="indexbody">
+             My name is Elliot Ginty, I am 23 and From Middlesbrough. I am currently studying Information Technology at Teesside University. 
+             Outside of university I enjoy watching football and support Middlesbrough Football Club. My role as team member is to complete tasks given to
+             me by the group leader, and my current task is to create a log in and log out functionality for our website. My contact information is 
+             a0307536@tees.ac.uk which is my student email if you wish to reach me. 
+            </p>                
+        </div>
+        <br> <br> <br> 
+        <div class="container grid">
+            <img src="images/Leon.jpg" width="300" height="300" alt="Leon Parks - Team Member" class="center">
+            <p class="indexbody">
+            My name is Leon Parks, the course I'm currently undergoing is computing in Teesside University, and this specific 
+            module is Business Systems Development. Before this I was a student at Middlesbrough College where I did a two-year 
+            course in games design. My role as team member is to complete any tasks that I am assigned by the group leader, and my
+            current task is to design a contact page for our website. I am also working on our group presentation alongside the other team 
+            members. My student email is b1377989@tees.ac.uk if you wish to contact me personally for business inquiries. 
+         <br> <br> <br> 
+            </p>                
+        </div>
+        <div class="container grid">
+            <img src="images/Josh.jpg" width="300" height="300" alt="Joshua Etherington - Team Member" class="center">
+            <p class="indexbody">
+           My name is Joshua Etherington and I am a student at Teesside University, I am currently studying Business and Data Analytics as
+           a first year student. Before joining this course I did a 2-year Level 3 Extended Diploma in Computing and IT, in which
+           I got a triple distinction star. My role as team member is to work on the tasks that are assigned to me by our group leader, and 
+           I am responsible for designing this about us page along with working on the group presentation with the rest of the team. My 
+           student email is a0107587@tees.ac.uk if you need to contact me at all. 
+            </p>                
+        </div>
+    </section>
+
+    <footer class="footer bg-primary my-index">
+
+    <div class="container flex" >
+        NELJ ©️ 2022
+        <nav>
+            <ul>
+                <li><a href="#">Back To Top</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</footer>
+
+</body>
+</html>
