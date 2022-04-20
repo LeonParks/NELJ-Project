@@ -132,6 +132,77 @@ h1 {
   color: black;
 }
 
+/* Contact Page */
+
+.contactheading {
+  max-width: 960px;
+  margin: auto;
+  font-size: 50px;
+  align-items: center;
+}
+
+.contactbody {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  align-items: center;
+}
+
+.contactintro {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.form
+{
+  margin-top: 60px;
+  transition: all 4s ease-in-out;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.form-control
+{
+  width: 450px; 
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid gray;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  align-items: center;
+}
+
+.input
+{
+  height: 45px;
+}
+
+form .submit
+{
+  background: #8080f8;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 9px;
+  height: 50px;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+form .submit:hover
+{
+  background-color: #6565fb;
+  cursor: pointer;
+}
+
 /* Log in Page*/
 
 .class1{
