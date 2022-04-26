@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NELJ Login Page">
+    <meta name="author" content="Elliot Ginty">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style/style.css">
+    <link rel="stylesheet" href="css/style/utilities.css">
+    <title>NELJ | Group Project</title>
+
+    </head>
+    <body>
+         <!-- Navbar-->
+    <div class="navbar">
+        <div class="container flex" >
+            <h1 class="Logo">NELJ</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Data Dashboard</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+     <!-- Data Dashboard Header -->
+     <section class="bg-primary pd-10">
+
+        <div class="container">
+            <h1 class="dataheading textcenter">
+                Log In or Register
+            </h1>
+        </div>
+
+    </section>
+
+        <div class="class1">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="Login()">Log in</button>
+                    <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+                </div>
+                <form id= "Login" class="input-group">
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+                </form>
+                <form id= "Register" class="input-group">
+                    <input type="text" class="input-field" placeholder="Email" required>
+                    <input type="text" class="input-field" placeholder="Create Password" required>
+                    <input type="text" class="input-field" placeholder="Re-enter Password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                    </form>
+            </div>
+                   </div> 
+                   
+                   <script>
+                   var x = document.getElementById("Login")
+                   var y = document.getElementById("Register")
+                   var z = document.getElementById("btn")
+
+                   function Register(){
+                  x.style.left = "-300px";
+                  y.style.left = "50px";
+                 z.style.left = "110px";
+            
+            }
+            function Login(){
+                  x.style.left = "50px";
+                  y.style.left = "450px";
+                 z.style.left = "0px";
+            
+            }
+
+
+                 </script>
+
+
+
+    </body>
+</html>
