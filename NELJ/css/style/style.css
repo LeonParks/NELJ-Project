@@ -178,6 +178,12 @@ h1 {
   align-items: center;
 }
 
+.contact-form
+{
+  align-items: center;
+  text-align: center;
+}
+
 .input
 {
   height: 45px;
