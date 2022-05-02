@@ -20,7 +20,7 @@
             <li><a href="dashboard.html">Data Dashboard</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="Contact Us.html">Contact Us</a></li>
-            <li><a href="login.html">Log in</a></li>
+            <li><a href="login.html">Register</a></li>
           </ul>
         </nav>
       </div>
@@ -28,72 +28,37 @@
     <!-- Log in Header -->
     <section class="bg-primary pd-10">
       <div class="container">
-        <h1 class="dataheading textcenter">Log In or Register</h1>
+        <h1 class="dataheading textcenter">Register</h1>
       </div>
     </section>
 
-    <div class="class1">
+    <div class="bg-primary pd-10">
       <div class="form-box">
         <div class="button-box">
           <div id="btn"></div>
-          <button type="button" class="toggle-btn" onclick="Login()">
-            Log in
-          </button>
-          <button type="button" class="toggle-btn" onclick="Register()">
-            Register
-          </button>
         </div>
         <form id="Login" class="input-group">
+          <p class="registerintro">Please enter your information below:</p>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Last Name"
+            required
+          />
           <input type="text" class="input-field" placeholder="Email" required />
-          <input
-            type="text"
-            class="input-field"
-            placeholder="Password"
-            required
-          />
           <input type="checkbox" class="check-box" /><span
-            >Remember Password</span
-          >
-          <button type="submit" class="submit-btn">Login</button>
-        </form>
-        <form id="Register" class="input-group">
-          <input type="text" class="input-field" placeholder="Email" required />
-          <input
-            type="text"
-            class="input-field"
-            placeholder="Create Password"
-            required
-          />
-          <input
-            type="text"
-            class="input-field"
-            placeholder="Re-enter Password"
-            required
-          />
-          <input type="checkbox" class="check-box" /><span
-            >I agree to terms and conditions</span
+            >I agree to Terms and Conditions</span
           >
           <button type="submit" class="submit-btn">Register</button>
         </form>
       </div>
     </div>
-
-    <script>
-      var x = document.getElementById("Login");
-      var y = document.getElementById("Register");
-      var z = document.getElementById("btn");
-
-      function Register() {
-        x.style.left = "-300px";
-        y.style.left = "50px";
-        z.style.left = "110px";
-      }
-      function Login() {
-        x.style.left = "50px";
-        y.style.left = "450px";
-        z.style.left = "0px";
-      }
-    </script>
 
     <footer class="footer bg-primary my-login">
       <div class="container flex">
